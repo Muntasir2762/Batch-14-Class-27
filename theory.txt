@@ -1,0 +1,63 @@
+======Loop======
+
+1. for Loop
+2. foreach Loop
+3. while Loop
+4. do while Loop
+
+Hello World!!
+
+===for Loop===
+
+for(initilization; range/condition; increment/decrement){
+    //Statement...
+}
+
+++, --
+
+1 = Hello World = 5
+2 = Hello World = 6
+3 = Hello World = 7
+4 = Hello World = 8
+5 = Hello World = 9
+
+for(initilization; range/condition; increment/decrement){
+    //Statement...
+}
+
+for(i=1; i<=5; i++){
+    console.log('Hello world');
+}
+
+
+
+6%2 = 0
+5%2 = 1
+8%2 = 0
+4%2 = 0
+
+let number = [6, 5, 8, 4, 5, 5, 8, 5];
+
+if(number%2==0){
+    console.log('Even');
+}
+
+5,4,90%2
+
+
+let digit = 6;
+
+if(digit%2==0){
+    console.log('Even');
+}
+
+if(number[i]%2==0){
+        console.log(number[i]+'=Even'); // 6=even 5=odd
+}
+
+
+let x = 10;
+let y = 12;
+
+let result = x+y;
+console.log(result);
